@@ -12,7 +12,7 @@ const app = express();
 const corsOptions = {
   origin: [
     "http://localhost:4600",
-    "https://instaclonee-git-master-gabriel-ubakas-projects.vercel.app",
+    "https://instaclonee-pi.vercel.app",
   ],
   optionsSuccessStatus: 200,
   methods: ["GET", "POST", "PATCH", "DELETE"],
